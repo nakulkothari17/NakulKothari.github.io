@@ -177,6 +177,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		font-size: 15px;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2854,6 +2855,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5rem;
+			font-size: 15px;
 		}
 
 		ul.divided {
