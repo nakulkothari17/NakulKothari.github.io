@@ -3950,9 +3950,9 @@ input, select, textarea {
 	#footer {
 		color: #717981;
 		display: -moz-flex;
-		display: -webkit-flex;
+		/*display: -webkit-flex;
+		display: flex;*/
 		display: -ms-flex;
-		display: flex;
 		background-color: #f5f5f5;
 		color: #909498;
 		cursor: default;
@@ -4687,3 +4687,34 @@ input, select, textarea {
 		}
 
 	}
+	footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        margin-right: 10px;
+
+    }
+
+    .info {
+        margin-right: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .info {
+            margin-bottom: 10px;
+        }
+		.icon{
+			padding-bottom: 10px;
+		}
+    }
